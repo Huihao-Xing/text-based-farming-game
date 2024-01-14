@@ -1,4 +1,4 @@
-In this project you will implement a single-player text-based farming game. The following three sections
+In this project you will implement a single-player text-based farming game based on Python. The following three sections
 provide an overview of the game, an explanation of the included .py files and how they are organized, and
 the specific tasks you need to complete.
 
