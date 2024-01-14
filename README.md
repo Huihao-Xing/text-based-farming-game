@@ -22,3 +22,25 @@ numbers of eggs.
 6. Some eggs are hatched, decreasing egg inventory and increasing chicken inventory.
 7. The current rent payment is made, and then the daily rent payment is increased. If the account balance
 is below zero, the game ends.
+
+---
+
+The lay_eggs function accepts one parameter for the
+current number of chickens in inventory and returns the total number of eggs laid today. If there 
+are zero chickens, then zero eggs are laid. If there is one chicken, then 11 eggs are laid. Otherwise,
+different chickens produce different numbers of eggs. Suppose you have N > 1 chickens and number
+them 1, 2, ..., N, from least to most productive. The 1st chicken produces zero eggs per day, and the
+Nth chicken produces 11 eggs per day. In general, for 1 less or equal to k  and k less or equal to N, the number of eggs produced by
+the kth chicken is:
+
+![image](https://github.com/Huihao-Xing/text-based-farming-game/assets/119607601/3dd5567e-e9fc-4ea1-a1a0-bfd35ef58488)
+
+where X is the largest integer less than or equal to x. So, the total number of eggs laid is:
+
+![image](https://github.com/Huihao-Xing/text-based-farming-game/assets/119607601/ea210e80-56fa-4c3e-b304-8365c2eaa515)
+
+As a concrete example, if you have N = 3 chickens, the total eggs laid is:
+
+![image](https://github.com/Huihao-Xing/text-based-farming-game/assets/119607601/13196884-488b-439b-9a46-ddbe7f12bb4a)
+
+
