@@ -41,6 +41,7 @@ where X is the largest integer less than or equal to x. So, the total number of 
 
 As a concrete example, if you have N = 3 chickens, the total eggs laid is:
 
-![image](https://github.com/Huihao-Xing/text-based-farming-game/assets/119607601/13196884-488b-439b-9a46-ddbe7f12bb4a)
+![image](https://github.com/Huihao-Xing/text-based-farming-game/assets/119607601/67ab24de-95b1-4a4d-86c1-645cde2630f9)
+
 
 
